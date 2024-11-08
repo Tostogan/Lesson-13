@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.options {
+    list-style: none;
+}
+
+.col {
+    /* border: 1px solid gray; */
+    display: inline-block;
+    width: 45%;
+}
+
+.plans {
+    display: none;
+}
+
+.plans:target {
+    display: inline-block;
+}
